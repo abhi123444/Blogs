@@ -1,0 +1,80 @@
+.edit_profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.editprofileHorizzontal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.editprofileleft{
+    max-width: 300px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.editprofileright{
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.edit_profile_Update{
+    margin: 10px;
+}
+.edit_profile_image_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+.edit_profile_image_input > button{
+    max-width: 250px;
+    width:100%;
+    height: 32px;
+    margin: 10px;
+    border: 1px solid #1890ff;
+    border-radius: 15px;
+    background-color: #1890ff;
+    color: #fff;
+    cursor:pointer;
+}
+.edit_profile_image_input > button:hover{
+    opacity: 0.8;
+}
+.edit_profile_service_snap{
+    display: flex;
+    flex-direction: row;
+}
+.edit_profile_service_input_save{
+    max-width: 200px;
+    width: 100%;
+}
+.edit_profile_socialmedia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.edit_profile_{
+    margin: 10px;
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.edit_profile_about{
+    margin: 10px;
+}
+.edit_profile_heading >h4{
+    font-weight:600;
+}
+.edit_profile_title > h4{
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

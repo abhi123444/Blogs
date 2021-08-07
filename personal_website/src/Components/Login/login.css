@@ -1,0 +1,30 @@
+.Signup_container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page_header_container{
+    width: 100%;
+}
+.signup_input_container{
+    margin-left:10px;
+    max-width: 500px;
+    width:100%;
+}
+.post_inputs_container{
+    margin-top: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+.cont{
+    max-width: 540px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+    border-left: 1px solid rgb(218, 214, 214);
+    border-right:1px solid rgb(218, 214, 214);
+    border-bottom: 1px solid rgb(218, 214, 214);
+    border-radius: 15px;
+}

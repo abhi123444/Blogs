@@ -1,0 +1,44 @@
+.displaymsg_container{
+    max-width: 1150px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.leftcontainer{
+    max-width: 700px;
+    width: 100%;
+    margin-top: 50px;
+}
+.leftcontainer > table,tbody{
+    margin-left: 10px;
+    border: none;
+    max-width: 700px;
+    width: 100%;
+}
+.tableheading{
+    background-color: rgba(43, 43, 43, 0.637);
+    border-color:rgba(43, 43, 43, 0.637);
+    color: aliceblue;
+    padding: 3px;
+}
+.tableheading > th{
+    margin-left: 5px;
+    text-align: center;
+    
+    border-left: 1px solid rgb(255, 255, 255) ;
+}
+.tabledata{
+    padding: 3px;
+}
+.tabledata > td {
+    text-align: center;
+    border: 1px solid rgb(216, 167, 167);
+    font-weight: 600;
+}
+.rightcontainer{
+    margin-top: 50px;
+    margin-left: 20px;
+    border-left: 1px solid rgb(216, 214, 214);
+}

@@ -1,0 +1,115 @@
+.post__container{
+    max-width: 700px;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+.post__title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: 700px;
+    margin: 0;
+}
+
+.post__date{
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.post__date > span{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.post__content_para{
+    font-family:'Source Sans Pro','Lucida Sans Unicode','Lucida Sans Unicode',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #4E4E4E;
+}
+.post___content_para{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-indent: 30px;
+    color: #4E4E4E;
+    text-align: justify;
+}
+.post__content_img{
+    max-width: 600px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+.post__content_img > img{
+    width: 100%;
+}
+.post__content_lists{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+.post__content_lists > ul {
+    list-style-type:none;
+}
+
+.post__content_lists > ul > li {
+    font-family:'Source Sans Pro','Lucida Sans Unicode','Lucida Sans Unicode',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5em;
+    text-align: justify;
+    color: #4E4E4E;
+}
+.post__content_title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #4E4E4E;
+}
+.post__content_title > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #4E4E4E;
+} 
+.post__content_lists > ul > li::before{
+    content: "\25B6 \FE0E \0020";
+    color: rgb(250, 112, 19);
+}
+
+.blog_preview_ParagraphTitle > h3{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #252525;
+}
+@media only screen and (max-width:720px) {
+    .post__title{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .blog_preview_ParagraphTitle > h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+    }
+    .post__content_lists{
+        max-width: 650px;
+        width: 100%;
+    }
+    .post__content_lists > ul > li {
+        font-family:'Source Sans Pro','Lucida Sans Unicode','Lucida Sans Unicode',sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.5em;
+        margin-bottom: 5px;
+        color: #4E4E4E;
+    }
+}

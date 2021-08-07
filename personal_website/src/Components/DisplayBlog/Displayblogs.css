@@ -1,0 +1,15 @@
+.posts{
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.post_snap_title {
+    height: 100px;
+}
+.post_snap_title > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+}

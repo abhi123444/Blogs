@@ -1,0 +1,129 @@
+.home{
+    display: flex;
+    flex-direction:column;
+}
+.home_top{
+    display: flex;
+    flex-direction:row-reverse;
+    flex-wrap:wrap-reverse;
+}
+.profile_img{
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 1px 10px #fff inset;
+}
+.profile_img >img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.home_content{
+    max-width: 600px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home_info > h3{
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-indent: 25px;
+    text-align: justify;
+}
+.home_bottom{
+    max-width: 1000px;
+    width: 100%;
+    margin:auto;
+}
+.home_bottom_box > h3{
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.home_bottom_box > p{
+    font-family:'Source Sans Pro','Lucida Sans Unicode','Lucida Sans Unicode',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: #4E4E4E;
+    text-align: justify;
+}
+.home_bottom_box > p::first-letter {
+    font-size: 200%;
+}
+.home_footer{
+   max-width: 1000px;
+   width: 100%;
+   display:flex;
+   margin: 20px;
+   flex-direction: row;
+   justify-content: center;
+   margin: auto;
+}
+.socialUl{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.socialLi {
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+}
+.home_footer_tag{
+    margin: auto;
+    max-width: 1230px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-top: 1px solid rgb(212, 210, 210);
+}
+.headingContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #4b4a4a;
+}
+.message{
+    max-width: 600px;
+    width: 100%;
+    background-color: gray;
+    background-image: linear-gradient(to bottom right, #fdfcfc, rgb(165, 162, 162));
+    padding: 20px;
+    border-radius: 0px 0px 25px 0px;
+    margin: auto;
+}
+.msgSubmit{
+    margin: 10px 10px 10px 0px;
+    max-width: 540px;
+    width: 100%;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 0px 0px 10px 0px;
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 16px;
+}
+.msgSubmit:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:720px) {
+    .home_info > h3{
+        font-size: 20px;
+        margin: 20px;
+    }
+    .home_bottom{
+        padding: 10px;
+    }
+}

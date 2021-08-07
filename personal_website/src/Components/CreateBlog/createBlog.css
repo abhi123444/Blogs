@@ -1,0 +1,114 @@
+.blog_container{
+    max-width:1248px;
+    width:100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.blog_preview{
+    max-width: 700px;
+    width:100%;
+}
+
+.blog_preview_para{
+    font-family:'Source Sans Pro','Lucida Sans Unicode','Lucida Sans Unicode',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5em;
+    color: #4E4E4E;
+}
+
+.blog_preview_lists > ul {
+    list-style-type:none;
+}
+.valdationmsg{
+    font-family:'Source Sans Pro','Lucida Sans Unicode','Lucida Sans Unicode',sans-serif;
+    font-size: 12px;
+    color: rgb(9, 114, 0);
+}
+.blog_preview_lists > ul > li {
+    font-family:'Source Sans Pro','Lucida Sans Unicode','Lucida Sans Unicode',sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2em;
+    color: #4E4E4E;
+}
+.blog_preview_lists > ul > li::before{
+    content: "\25B6 \FE0E \0020";
+    color: rgb(250, 112, 19);
+}
+.blog_preview_img{
+    max-width: 500px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+.blog_preview_img >img{
+    max-width: 500px;
+    width: 100%;
+}
+/*-----------------------------------------------------------------------*/
+.post_inputs_container{
+    display: flex;
+    flex-direction: row;
+    max-width:500px;
+    width:100%;
+    margin: auto;
+    align-self: flex-start;
+}
+.post_inputs_img_button{
+    display: flex;
+    flex-direction: column;
+    max-width:500px;
+    width:100%;
+    margin: auto;
+    align-self: flex-start;
+}
+.post_inputs_container_{
+    max-width:500px;
+    width:100%;
+    margin: auto;
+    margin-bottom:100px;
+}
+.post_title_image > img{
+    width:100px;
+    height:100px;
+    border:1px solid rgb(179, 177, 177);
+    border-radius: 10px;
+}
+.post_inputs_container_submit{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:20px;
+}
+.post_inputs_img_button > .btn{
+    width: 100px;
+    height: 35px;
+    margin-top:15px ;
+    margin-bottom:10px ;
+    background-color: #1890ff;
+    color: rgb(32, 32, 31);
+    border: 1px solid #1890ff;
+    border-radius: 10px;
+    color:#ffffff;
+}
+.post_inputs_container > .btn:hover{
+    opacity: 0.8;
+}
+.blog_container_row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    max-width: 500px;
+    width: 100%;
+}
+.blog_container_row_two{
+    max-width: 390px;
+    width: 100%;
+    margin-left: 10px;
+}
+hr{
+    color: rgb(204, 200, 200);
+}
